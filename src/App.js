@@ -5,6 +5,8 @@ import NavBar from './Components/Nav/Nav'
 import Banner from "./Components/Banner/Banner";
 import Comics from "./Components/Comics/Comics";
 import Videos from "./Components/Videos/Videos";
+import Poster from "./Components/Poster/Poster";
+import Comics_sec2 from "./Components/Comics_sec2/Comics_sec2";
 
 function App() {
 
@@ -21,6 +23,10 @@ function App() {
       </section>
       <section>
         <Videos />
+        <Poster />
+      </section>
+      <section>
+        <Comics_sec2 />
       </section>
 
 

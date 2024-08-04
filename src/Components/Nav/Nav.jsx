@@ -10,7 +10,7 @@ export default function NavBar() {
                 <h5>JOIN</h5>
             </div>
 
-            <header id='title'>M<span>ARVEL</span></header>
+            <header id='title'>MARVEL</header>
             <div className='sub-logo'>
                 <img id='mulogo' src="/photos/iconmushield.png" />
                 <div className='sub-logo2'>

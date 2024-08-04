@@ -1,0 +1,21 @@
+
+
+.hyperbox-main2:hover {
+    cursor: default;
+
+    img {
+        transform: scale(1.05);
+    }
+
+    p {
+        color: red;
+    }
+}
+
+.hyperbox-img>img {
+    transition: 0.2s;
+}
+
+.hyperbox-text>p {
+    transition: 0.2s;
+}

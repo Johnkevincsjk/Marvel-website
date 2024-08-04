@@ -1,0 +1,16 @@
+.Comics_sec2 {
+
+    position: relative;
+    top: -100px;
+    padding-top: 30px;
+    z-index: 2;
+    background-color: white;
+
+}
+
+.Comics_sec2-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}

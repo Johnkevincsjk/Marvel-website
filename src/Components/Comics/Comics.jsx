@@ -47,7 +47,7 @@ export default function Comics() {
                     <p className='card-content-one'>Deadpool & Wolverine: Wwiii (2024) #3</p>
                     <p className='comic-year'>2024</p>
                 </div>
-                <div className="col-md-2 comics-cards">
+                <div className="col-md-2 comics-cards sec2">
                     <img className='comics-img' src="https://cdn.marvel.com/u/prod/marvel/i/mg/f/b0/66212b2c00486/portrait_uncanny.jpg" />
                     <p className='card-content-one'>Ultimate Black Panther (2024) #6</p>
                     <p className='comic-year'>2024</p>
@@ -58,6 +58,7 @@ export default function Comics() {
                     <p className='comic-year'>2024</p>
                 </div>
             </div>
+            <hr />
         </div>
     )
 }

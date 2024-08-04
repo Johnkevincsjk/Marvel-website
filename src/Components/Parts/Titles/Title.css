@@ -1,0 +1,36 @@
+.title-main {
+    width: auto;
+    height: 60px;
+    overflow: hidden;
+    line-height: 1;
+    position: relative;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title {
+    font-family: "Marvel", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: medium;
+    background-color: white;
+}
+
+.title:hover {
+    cursor: default;
+
+}
+
+.title-design {
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+    width: 100%;
+    background-color: red;
+    height: 2px;
+    transform: rotate(-45deg);
+    transition: 2s;
+}

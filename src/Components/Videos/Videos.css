@@ -1,0 +1,139 @@
+.video-main2 {}
+
+.video-main {
+    height: auto;
+
+}
+
+.video-cards {}
+
+.video-cardsRapper {
+    display: flex;
+}
+
+.video-box {
+    display: flex;
+    padding-right: 0;
+
+
+
+}
+
+.video-tumbnail {
+
+
+    img {
+        margin: 10px 20px 10px 0;
+        height: 200px;
+        transition: 0.5s;
+    }
+
+}
+
+.video-tumbnail :hover {
+    transform: scale(1.05);
+    cursor: default;
+
+
+}
+
+.video-header {
+    margin-top: 20px;
+    font-family: "Marvel", sans-serif;
+
+    p {
+        font-size: 12px;
+        font-weight: 900;
+        color: #767676;
+    }
+
+    h6 {
+        font-weight: 900;
+        color: black;
+    }
+}
+
+.hypeBox-main {
+    border-left: 0.1px solid #76767643;
+    height: auto;
+
+
+}
+
+.hypeBox-main hr {
+    margin-top: px;
+}
+
+.hypeBox-main1 {
+
+
+
+    h1 {
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: -1px;
+        font-size: 26px;
+    }
+
+    p {
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        letter-spacing: 0.4px;
+    }
+}
+
+.hyperbox-main2 {
+    display: flex;
+    margin-top: 40px;
+    
+
+}
+
+.hyperbox-main2:hover {
+    cursor: pointer;
+
+    img {
+
+        transform: scale(1.02);
+    }
+
+    .hyperbox-text {
+        color: red;
+    }
+}
+
+.hyperbox-img {
+    
+    img {
+        height: 90px;
+    }
+}
+
+.hyperbox-text {
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin: 20px 10px;
+
+
+    h6 {
+
+        font-size: 13px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        color: #767676;
+        line-height: 10px;
+    }
+
+    p {
+        text-align: start;
+        margin: 0;
+        font-family: "Roboto", sans-serif;
+        font-size: 10px;
+        font-weight: 800;
+    }
+}
