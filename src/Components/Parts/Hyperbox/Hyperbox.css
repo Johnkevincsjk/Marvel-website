@@ -1,5 +1,7 @@
 
-
+.hyperbox-main2{
+    margin: 10px 20px;
+}
 .hyperbox-main2:hover {
     cursor: default;
 

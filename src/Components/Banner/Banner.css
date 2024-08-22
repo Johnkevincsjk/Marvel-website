@@ -8,7 +8,8 @@
 .banner-main {
     width: 100%;
     height: auto;
-
+    position: relative;
+    ;
     border-top: 1px solid rgba(255, 255, 255, 0.434);
 
 }
@@ -34,12 +35,12 @@
         font-size: 12px;
         list-style: none;
         margin-bottom: 0;
-    
+
     }
 
     li:hover {
         cursor: pointer;
-    
+
         border-bottom: solid 2px red;
     }
 }
@@ -118,8 +119,9 @@
 
 .banner-heading {
     left: 200px;
-    position: relative;
-    bottom: 30px;
+    position: absolute;
+    top: 460px;
+    z-index: 1;
     background-color: white;
     display: inline-block;
     width: 900px;

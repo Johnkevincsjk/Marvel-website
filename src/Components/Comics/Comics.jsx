@@ -3,7 +3,7 @@ import '../Comics/Comics.css'
 
 export default function Comics() {
     return (
-        <div className='container Comics-main'>
+        <div className='container-fluid Comics-main'>
             <div className="row comics-main2">
                 <div className="col-md-2 comics-cards">
                     <img className='comics-img' src="https://cdn.marvel.com/u/prod/marvel/i/mg/d/50/664caebf96e69/portrait_uncanny.jpg" />

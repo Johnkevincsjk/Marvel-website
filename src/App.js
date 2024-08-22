@@ -7,6 +7,8 @@ import Comics from "./Components/Comics/Comics";
 import Videos from "./Components/Videos/Videos";
 import Poster from "./Components/Poster/Poster";
 import Comics_sec2 from "./Components/Comics_sec2/Comics_sec2";
+import Iframe from "./Components/Iframe/Iframe";
+import MainFooter from "./Components/MainFooter/MainFooter";
 
 function App() {
 
@@ -27,7 +29,13 @@ function App() {
       </section>
       <section>
         <Comics_sec2 />
+        <Iframe />
       </section>
+
+      <section>
+        <MainFooter/>
+      </section>
+
 
 
 

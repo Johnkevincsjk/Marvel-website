@@ -1,0 +1,59 @@
+.Iframe-main {
+
+
+    h4 {
+        font-family: "Marvel", sans-serif;
+        font-size: 26px;
+        letter-spacing: 0.5px;
+    }
+
+    p {
+        font-family: "Marvel", sans-serif;
+        font-size: 16px;
+        color: #202020;
+    }
+}
+
+.iframe-sec1 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+
+    text-align: center;
+}
+
+.iframe-videos {
+    display: flex;
+    margin-top: 40px;
+    max-height: 320px;
+    overflow-x: auto;
+    margin: 0 20px;
+}
+
+.iframe-videos::-webkit-scrollbar {
+    width: 0;
+}
+
+.trailer-card {
+    height: auto;
+
+    p {
+        font-family: "Marvel", sans-serif;
+        margin-left: 10px;
+        font-weight: 900;
+        font-size: 10px;
+        text-transform: capitalize;
+    }
+}
+
+.trailer-card>a {
+    margin: 20px 10px;
+
+}
+
+
+.trailer-card>a>img {
+    overflow: hidden;
+    height: 150px;
+    border-radius: 2px;
+}

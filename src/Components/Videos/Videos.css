@@ -1,7 +1,12 @@
-.video-main2 {}
+.video-main2 {
+display: flex;
+justify-content: center;
+
+    width: 100%;
+}
 
 .video-main {
-    height: auto;
+    height: 200dvh;
 
 }
 

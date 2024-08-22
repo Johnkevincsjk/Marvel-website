@@ -1,16 +1,17 @@
 .Comics-main {
     height: auto;
-    width: 100%;
-   padding: 20px 30px;
+    padding: 20px 10px;
+    width: 90%;
     background-color: white;
     position: relative;
-    top: -60px;
-   
+    top: -50px;
+
 }
 
 .comics-main2 {
+
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
 
 }
@@ -35,8 +36,9 @@
     padding: 0;
     transition: 0.5s;
 }
-.comics-cards:hover{
-    p{
+
+.comics-cards:hover {
+    p {
         color: red;
     }
 }

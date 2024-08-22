@@ -5,10 +5,10 @@ import Hyperbox from '../Parts/Hyperbox/Hyperbox'
 
 export default function Videos() {
     return (
-        <div className='container video-main'>
+        <div className='container-fluid video-main'>
             <Titles label="The Latest" />
-            <div className='row video-main2'>
-                <div className="col-md-8 video-box">
+            <div className='video-main2'>
+                <div className="video-box">
                     <div className='video-cards'>
                         <div className="video-cardsRapper">
                             <div className='video-tumbnail'>
@@ -60,40 +60,40 @@ export default function Videos() {
 
                 </div>
                 <hr />
-                <div className="col-md-4 hypeBox-main">
+                <div className="hypeBox-main">
                     <div className="hypeBox-main1">
                         <h1>The Hype Box</h1>
                         <p>Can’t-miss news and updates from across the Marvel Universe!</p>
-                       
-                    <Hyperbox
-                        imgScr="https://cdn.marvel.com/content/1x/sdcc_hall_h_recap.jpg"
-                        title="Live Events"
-                        Description="SDCC 2024: All the News from Marvel Studios’ Hall H Panel"
-                    />
-                    <hr />
-                    <Hyperbox
-                        imgScr="https://cdn.marvel.com/content/1x/sdcc-2024-biggest-marvel-news-recap-article-card.jpg"
-                        title="Live Events"
-                        Description="The Biggest Marvel News from San Diego Comic-Con 2024"
-                    />
-                    <hr />
-                    <Hyperbox
-                        imgScr="https://cdn.marvel.com/content/1x/deadpoolwolverinepremiere.jpg"
-                        title="Movies"
-                        Description="‘Deadpool & Wolverine’ Makes Its Worldwide Premiere in New York City"
-                    />
-                    <hr />
-                    <Hyperbox
-                        imgScr="https://cdn.marvel.com/content/1x/blood_hunt_5_cover_card.jpg"
-                        title="Comics"
-                        Description="July 31's New Marvel Comics: The Full List"
-                    />
-                    <hr />
-                    <Hyperbox
-                        imgScr="https://cdn.marvel.com/content/1x/magneto_0.jpg"
-                        title="Podcasts"
-                        Description="See the X-Men Comics That Inspired ‘X-Men ‘97’"
-                    />
+
+                        <Hyperbox
+                            imgScr="https://cdn.marvel.com/content/1x/sdcc_hall_h_recap.jpg"
+                            title="Live Events"
+                            Description="SDCC 2024: All the News from Marvel Studios’ Hall H Panel"
+                        />
+                        <hr />
+                        <Hyperbox
+                            imgScr="https://cdn.marvel.com/content/1x/sdcc-2024-biggest-marvel-news-recap-article-card.jpg"
+                            title="Live Events"
+                            Description="The Biggest Marvel News from San Diego Comic-Con 2024"
+                        />
+                        <hr />
+                        <Hyperbox
+                            imgScr="https://cdn.marvel.com/content/1x/deadpoolwolverinepremiere.jpg"
+                            title="Movies"
+                            Description="‘Deadpool & Wolverine’ Makes Its Worldwide Premiere in New York City"
+                        />
+                        <hr />
+                        <Hyperbox
+                            imgScr="https://cdn.marvel.com/content/1x/blood_hunt_5_cover_card.jpg"
+                            title="Comics"
+                            Description="July 31's New Marvel Comics: The Full List"
+                        />
+                        <hr />
+                        <Hyperbox
+                            imgScr="https://cdn.marvel.com/content/1x/magneto_0.jpg"
+                            title="Podcasts"
+                            Description="See the X-Men Comics That Inspired ‘X-Men ‘97’"
+                        />
                     </div>
                 </div>
             </div>
